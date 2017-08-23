@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+	background-color: AliceBlue;
+}
+
+/* Formatting of the Grid */
+
+.container{
+		position: relative;
+		top:100px;
+		border: 3px solid black;
+		width:40%;
+		margin: 0px auto;
+}
+
+.gridBox{
+	float:left;
+	border: 1px solid black;
+	position: inline-block;
+}
+
+
+/* Formatting of the highlighted */
+
+.highlight{
+	background-color: blue;
+
+}
+/* Formatting for buttons */
+#buttonsContainer{
+	width:100%;
+	position:relative;
+	bottom:550px;
+	margin: 0px auto;
+}
+#buttons{
+	position:relative;	
+	margin: 0px auto;
+	width:80%;
+	text-align:center;
+}
+
+
+#clearButton{
+    background-color: SteelBlue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    margin:0px 20px;
+}
+
+
+#changeColor{
+    background-color: SteelBlue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    margin:0px 20px;
+}
+
